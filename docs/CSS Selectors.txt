@@ -1,0 +1,60 @@
+CSS Selectors
+CSS selectors are used to select the HTML elements to style the elements
+
+CSS selectors are divided into five categories
+1. Simple Selectors
+2. Combinator Selectors
+3. Pseudo-class Selectors
+4. Pseudo-elements Selectors
+5. Attribute Selectors
+
+1. Simple Selectors-select the elements based on name, id, class.
+	
+	1: Element selector- The elements selectors selects html elements based on the element name.
+ 
+ex: p {
+	text-align: centre;
+	color: red;
+  }
+ 
+	2: id Selector- select an element with a specific id, use (#) character, followed by id name.
+
+ex: #para1 {
+	text-align: center;
+	color: red;
+}
+
+	3: Class Selector- To select an elements with a specific class, Write (.) character, followed by the class name. html elements can also refer to more than one class.
+ 
+ex: .center {
+	text-align: Center:
+	color: red;
+}
+
+In html elements we specify both element name and class name, but it will take elements name.
+
+	4: Universal Selector- The universal selector to specify a (*) character to selects all html elements on the page.
+
+ex: * {
+	text-align: center;
+	color: blue;
+}
+
+	5: Grouping selector- The grouping selector selects all the HTML elements with the same style definations.
+ ex; ha, h2, and p elements have the same style definations, it will be beeter to group the selectors, to minimize the code.
+	h1, h2, p{
+	text-align: center;
+	color: red;
+	}
+
+
+
+
+2. Combinator Selectors- Select the elements based on specific relationship between them.
+
+3. Pseudo-class Selectors- select the elements based on a certain state.
+
+4. pseudo-elements selectors- select and style a part of an elements.
+
+5. Attribute selectors- select the elemnts based on an attribute or attribute value.
+
